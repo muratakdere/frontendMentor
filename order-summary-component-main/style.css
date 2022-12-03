@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:"Red Hat Display",sans-serif;
+}
+.card {
+  background-color: white;
+  width: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-detail {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.card-detail h1{
+        margin-bottom: 20px;
+
+
+
+}
+.annual-plan{
+    background-color:hsl(225, 100%, 98%) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.left-plan{
+    display: flex;
+
+}
+.price{
+    margin-left: 20px;
+    text-align: left;
+}
+button{
+    border: 0;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.payment{
+    width: 80%;
+    height: 40px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px 4px rgb(164, 176, 225);
+}
+.cancel{
+   
+    border-radius: 10px;
+    width: 50%;
+    height: 30px;
+    font-weight: 700;
+    color:hsl(224, 23%, 55%);
+    margin-top: 10px;
+
+
+}
