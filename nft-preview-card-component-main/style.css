@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 380px;
+  height: 600px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px; 
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card-detail {
+  font-size: 18px;
+  font-family: "Outfit";
+  height: 250px;
+  width: 300px;
+  margin: auto;
+}
+
+.image {
+  width: 340px;
+  height: 340px;
+  padding: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+}
+.ust-kisim {
+}
+.ust-kisim h2 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.ust-kisim p {
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 5px;
+  margin-top: 5px;
+  
+}
+.eth-deger {
+  display: flex;
+  margin-top: 20px;
+  
+}
+.eth-deger img{
+  height: 21px;
+}
+.eth-deger h3{
+    margin-left: 10px;
+    color:hsl(178, 100%, 50%);
+    font-size: 16px;
+}
+.day {
+  display: flex;
+  padding: 20px;
+}
+
+.day h3{
+    margin-left: 10px;
+    color:hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+.alt-kisim {
+  height:61px;
+  display: flex;
+  justify-content: space-between;
+}
+.person {
+  height:41px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.person img {
+  width: 35px;
+  height: 35px;
+  border: 1px white;
+}
+.person h3{
+    margin-left: 20px;
+    color:hsl(215, 51%, 70%);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.person span{
+    color:white;
+}
